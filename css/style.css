@@ -203,14 +203,14 @@ section {
   margin: 10px auto;
   padding: 15px; }
   section h2 {
-    font-family: "League Gothic", league-gothic-1, league-gothic-2, "" helvetica "", sans-serif;
+    font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0.5px;
     padding-bottom: 20px;
     text-transform: uppercase; }
   section h3 {
-    font-family: "League Gothic", league-gothic-1, league-gothic-2, "" helvetica "", sans-serif;
+    font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif;
     color: #cccccc;
     font-size: 30px;
     font-weight: 300;
