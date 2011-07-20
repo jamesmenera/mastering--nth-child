@@ -1,7 +1,7 @@
 body {
   background-color: #747474;
   position: relative;
-  font-family: helvetica; }
+  font-family: "helvetica"; }
 
 #decoration {
   height: 160px;
@@ -18,7 +18,7 @@ body {
   margin: 0 auto; }
 
 h1 {
-  font-family: "League Gothic";
+  font-family: "League Gothic", league-gothic-1, league-gothic-2, sans-serif;
   color: #202020;
   font-size: 80px;
   text-align: center;
@@ -38,7 +38,7 @@ h1 {
     overflow: hidden;
     text-shadow: none; }
   h1 p {
-    font-family: helvetica, sans-serif;
+    font-family: "helvetica", sans-serif;
     font-size: 20px;
     text-align: right;
     margin-top: 10px;
@@ -119,98 +119,98 @@ ul {
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(1):before {
       content: "1";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(2):before {
       content: "2";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(3):before {
       content: "3";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(4):before {
       content: "4";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(5):before {
       content: "5";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(6):before {
       content: "6";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(7):before {
       content: "7";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(8):before {
       content: "8";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(9):before {
       content: "9";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(10):before {
       content: "10";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     ul li:nth-child(11):before {
       content: "11";
       position: absolute;
       top: 60px;
       left: 30px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
 
 section {
   width: 670px;
   margin: 10px auto;
   padding: 15px; }
   section h2 {
-    font-family: "league gothic", "helvetica", sans-serif;
+    font-family: "League Gothic", league-gothic-1, league-gothic-2, "" helvetica "", sans-serif;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0.5px;
     padding-bottom: 20px;
     text-transform: uppercase; }
   section h3 {
-    font-family: "league gothic", "helvetica", sans-serif;
+    font-family: "League Gothic", league-gothic-1, league-gothic-2, "" helvetica "", sans-serif;
     color: #cccccc;
     font-size: 30px;
     font-weight: 300;
@@ -365,84 +365,84 @@ p {
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(1):before, #nth_of_type #example_six div:nth-child(1):before, #nth_of_type #example_seven span:nth-child(1):before, #nth_of_type #example_seven div:nth-child(1):before, #nth_of_type #example_eight span:nth-child(1):before, #nth_of_type #example_eight div:nth-child(1):before, #nth_of_type #example_nine span:nth-child(1):before, #nth_of_type #example_nine div:nth-child(1):before, #nth_of_type #example_ten span:nth-child(1):before, #nth_of_type #example_ten div:nth-child(1):before, #nth_of_type #example_eleven span:nth-child(1):before, #nth_of_type #example_eleven div:nth-child(1):before, #nth_of_type_ranges #example_six span:nth-child(1):before, #nth_of_type_ranges #example_six div:nth-child(1):before, #nth_of_type_ranges #example_seven span:nth-child(1):before, #nth_of_type_ranges #example_seven div:nth-child(1):before, #nth_of_type_ranges #example_eight span:nth-child(1):before, #nth_of_type_ranges #example_eight div:nth-child(1):before, #nth_of_type_ranges #example_nine span:nth-child(1):before, #nth_of_type_ranges #example_nine div:nth-child(1):before, #nth_of_type_ranges #example_ten span:nth-child(1):before, #nth_of_type_ranges #example_ten div:nth-child(1):before, #nth_of_type_ranges #example_eleven span:nth-child(1):before, #nth_of_type_ranges #example_eleven div:nth-child(1):before {
       content: "1";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(2):before, #nth_of_type #example_six div:nth-child(2):before, #nth_of_type #example_seven span:nth-child(2):before, #nth_of_type #example_seven div:nth-child(2):before, #nth_of_type #example_eight span:nth-child(2):before, #nth_of_type #example_eight div:nth-child(2):before, #nth_of_type #example_nine span:nth-child(2):before, #nth_of_type #example_nine div:nth-child(2):before, #nth_of_type #example_ten span:nth-child(2):before, #nth_of_type #example_ten div:nth-child(2):before, #nth_of_type #example_eleven span:nth-child(2):before, #nth_of_type #example_eleven div:nth-child(2):before, #nth_of_type_ranges #example_six span:nth-child(2):before, #nth_of_type_ranges #example_six div:nth-child(2):before, #nth_of_type_ranges #example_seven span:nth-child(2):before, #nth_of_type_ranges #example_seven div:nth-child(2):before, #nth_of_type_ranges #example_eight span:nth-child(2):before, #nth_of_type_ranges #example_eight div:nth-child(2):before, #nth_of_type_ranges #example_nine span:nth-child(2):before, #nth_of_type_ranges #example_nine div:nth-child(2):before, #nth_of_type_ranges #example_ten span:nth-child(2):before, #nth_of_type_ranges #example_ten div:nth-child(2):before, #nth_of_type_ranges #example_eleven span:nth-child(2):before, #nth_of_type_ranges #example_eleven div:nth-child(2):before {
       content: "2";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(3):before, #nth_of_type #example_six div:nth-child(3):before, #nth_of_type #example_seven span:nth-child(3):before, #nth_of_type #example_seven div:nth-child(3):before, #nth_of_type #example_eight span:nth-child(3):before, #nth_of_type #example_eight div:nth-child(3):before, #nth_of_type #example_nine span:nth-child(3):before, #nth_of_type #example_nine div:nth-child(3):before, #nth_of_type #example_ten span:nth-child(3):before, #nth_of_type #example_ten div:nth-child(3):before, #nth_of_type #example_eleven span:nth-child(3):before, #nth_of_type #example_eleven div:nth-child(3):before, #nth_of_type_ranges #example_six span:nth-child(3):before, #nth_of_type_ranges #example_six div:nth-child(3):before, #nth_of_type_ranges #example_seven span:nth-child(3):before, #nth_of_type_ranges #example_seven div:nth-child(3):before, #nth_of_type_ranges #example_eight span:nth-child(3):before, #nth_of_type_ranges #example_eight div:nth-child(3):before, #nth_of_type_ranges #example_nine span:nth-child(3):before, #nth_of_type_ranges #example_nine div:nth-child(3):before, #nth_of_type_ranges #example_ten span:nth-child(3):before, #nth_of_type_ranges #example_ten div:nth-child(3):before, #nth_of_type_ranges #example_eleven span:nth-child(3):before, #nth_of_type_ranges #example_eleven div:nth-child(3):before {
       content: "3";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(4):before, #nth_of_type #example_six div:nth-child(4):before, #nth_of_type #example_seven span:nth-child(4):before, #nth_of_type #example_seven div:nth-child(4):before, #nth_of_type #example_eight span:nth-child(4):before, #nth_of_type #example_eight div:nth-child(4):before, #nth_of_type #example_nine span:nth-child(4):before, #nth_of_type #example_nine div:nth-child(4):before, #nth_of_type #example_ten span:nth-child(4):before, #nth_of_type #example_ten div:nth-child(4):before, #nth_of_type #example_eleven span:nth-child(4):before, #nth_of_type #example_eleven div:nth-child(4):before, #nth_of_type_ranges #example_six span:nth-child(4):before, #nth_of_type_ranges #example_six div:nth-child(4):before, #nth_of_type_ranges #example_seven span:nth-child(4):before, #nth_of_type_ranges #example_seven div:nth-child(4):before, #nth_of_type_ranges #example_eight span:nth-child(4):before, #nth_of_type_ranges #example_eight div:nth-child(4):before, #nth_of_type_ranges #example_nine span:nth-child(4):before, #nth_of_type_ranges #example_nine div:nth-child(4):before, #nth_of_type_ranges #example_ten span:nth-child(4):before, #nth_of_type_ranges #example_ten div:nth-child(4):before, #nth_of_type_ranges #example_eleven span:nth-child(4):before, #nth_of_type_ranges #example_eleven div:nth-child(4):before {
       content: "4";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(5):before, #nth_of_type #example_six div:nth-child(5):before, #nth_of_type #example_seven span:nth-child(5):before, #nth_of_type #example_seven div:nth-child(5):before, #nth_of_type #example_eight span:nth-child(5):before, #nth_of_type #example_eight div:nth-child(5):before, #nth_of_type #example_nine span:nth-child(5):before, #nth_of_type #example_nine div:nth-child(5):before, #nth_of_type #example_ten span:nth-child(5):before, #nth_of_type #example_ten div:nth-child(5):before, #nth_of_type #example_eleven span:nth-child(5):before, #nth_of_type #example_eleven div:nth-child(5):before, #nth_of_type_ranges #example_six span:nth-child(5):before, #nth_of_type_ranges #example_six div:nth-child(5):before, #nth_of_type_ranges #example_seven span:nth-child(5):before, #nth_of_type_ranges #example_seven div:nth-child(5):before, #nth_of_type_ranges #example_eight span:nth-child(5):before, #nth_of_type_ranges #example_eight div:nth-child(5):before, #nth_of_type_ranges #example_nine span:nth-child(5):before, #nth_of_type_ranges #example_nine div:nth-child(5):before, #nth_of_type_ranges #example_ten span:nth-child(5):before, #nth_of_type_ranges #example_ten div:nth-child(5):before, #nth_of_type_ranges #example_eleven span:nth-child(5):before, #nth_of_type_ranges #example_eleven div:nth-child(5):before {
       content: "5";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(6):before, #nth_of_type #example_six div:nth-child(6):before, #nth_of_type #example_seven span:nth-child(6):before, #nth_of_type #example_seven div:nth-child(6):before, #nth_of_type #example_eight span:nth-child(6):before, #nth_of_type #example_eight div:nth-child(6):before, #nth_of_type #example_nine span:nth-child(6):before, #nth_of_type #example_nine div:nth-child(6):before, #nth_of_type #example_ten span:nth-child(6):before, #nth_of_type #example_ten div:nth-child(6):before, #nth_of_type #example_eleven span:nth-child(6):before, #nth_of_type #example_eleven div:nth-child(6):before, #nth_of_type_ranges #example_six span:nth-child(6):before, #nth_of_type_ranges #example_six div:nth-child(6):before, #nth_of_type_ranges #example_seven span:nth-child(6):before, #nth_of_type_ranges #example_seven div:nth-child(6):before, #nth_of_type_ranges #example_eight span:nth-child(6):before, #nth_of_type_ranges #example_eight div:nth-child(6):before, #nth_of_type_ranges #example_nine span:nth-child(6):before, #nth_of_type_ranges #example_nine div:nth-child(6):before, #nth_of_type_ranges #example_ten span:nth-child(6):before, #nth_of_type_ranges #example_ten div:nth-child(6):before, #nth_of_type_ranges #example_eleven span:nth-child(6):before, #nth_of_type_ranges #example_eleven div:nth-child(6):before {
       content: "6";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(7):before, #nth_of_type #example_six div:nth-child(7):before, #nth_of_type #example_seven span:nth-child(7):before, #nth_of_type #example_seven div:nth-child(7):before, #nth_of_type #example_eight span:nth-child(7):before, #nth_of_type #example_eight div:nth-child(7):before, #nth_of_type #example_nine span:nth-child(7):before, #nth_of_type #example_nine div:nth-child(7):before, #nth_of_type #example_ten span:nth-child(7):before, #nth_of_type #example_ten div:nth-child(7):before, #nth_of_type #example_eleven span:nth-child(7):before, #nth_of_type #example_eleven div:nth-child(7):before, #nth_of_type_ranges #example_six span:nth-child(7):before, #nth_of_type_ranges #example_six div:nth-child(7):before, #nth_of_type_ranges #example_seven span:nth-child(7):before, #nth_of_type_ranges #example_seven div:nth-child(7):before, #nth_of_type_ranges #example_eight span:nth-child(7):before, #nth_of_type_ranges #example_eight div:nth-child(7):before, #nth_of_type_ranges #example_nine span:nth-child(7):before, #nth_of_type_ranges #example_nine div:nth-child(7):before, #nth_of_type_ranges #example_ten span:nth-child(7):before, #nth_of_type_ranges #example_ten div:nth-child(7):before, #nth_of_type_ranges #example_eleven span:nth-child(7):before, #nth_of_type_ranges #example_eleven div:nth-child(7):before {
       content: "7";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(8):before, #nth_of_type #example_six div:nth-child(8):before, #nth_of_type #example_seven span:nth-child(8):before, #nth_of_type #example_seven div:nth-child(8):before, #nth_of_type #example_eight span:nth-child(8):before, #nth_of_type #example_eight div:nth-child(8):before, #nth_of_type #example_nine span:nth-child(8):before, #nth_of_type #example_nine div:nth-child(8):before, #nth_of_type #example_ten span:nth-child(8):before, #nth_of_type #example_ten div:nth-child(8):before, #nth_of_type #example_eleven span:nth-child(8):before, #nth_of_type #example_eleven div:nth-child(8):before, #nth_of_type_ranges #example_six span:nth-child(8):before, #nth_of_type_ranges #example_six div:nth-child(8):before, #nth_of_type_ranges #example_seven span:nth-child(8):before, #nth_of_type_ranges #example_seven div:nth-child(8):before, #nth_of_type_ranges #example_eight span:nth-child(8):before, #nth_of_type_ranges #example_eight div:nth-child(8):before, #nth_of_type_ranges #example_nine span:nth-child(8):before, #nth_of_type_ranges #example_nine div:nth-child(8):before, #nth_of_type_ranges #example_ten span:nth-child(8):before, #nth_of_type_ranges #example_ten div:nth-child(8):before, #nth_of_type_ranges #example_eleven span:nth-child(8):before, #nth_of_type_ranges #example_eleven div:nth-child(8):before {
       content: "8";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(9):before, #nth_of_type #example_six div:nth-child(9):before, #nth_of_type #example_seven span:nth-child(9):before, #nth_of_type #example_seven div:nth-child(9):before, #nth_of_type #example_eight span:nth-child(9):before, #nth_of_type #example_eight div:nth-child(9):before, #nth_of_type #example_nine span:nth-child(9):before, #nth_of_type #example_nine div:nth-child(9):before, #nth_of_type #example_ten span:nth-child(9):before, #nth_of_type #example_ten div:nth-child(9):before, #nth_of_type #example_eleven span:nth-child(9):before, #nth_of_type #example_eleven div:nth-child(9):before, #nth_of_type_ranges #example_six span:nth-child(9):before, #nth_of_type_ranges #example_six div:nth-child(9):before, #nth_of_type_ranges #example_seven span:nth-child(9):before, #nth_of_type_ranges #example_seven div:nth-child(9):before, #nth_of_type_ranges #example_eight span:nth-child(9):before, #nth_of_type_ranges #example_eight div:nth-child(9):before, #nth_of_type_ranges #example_nine span:nth-child(9):before, #nth_of_type_ranges #example_nine div:nth-child(9):before, #nth_of_type_ranges #example_ten span:nth-child(9):before, #nth_of_type_ranges #example_ten div:nth-child(9):before, #nth_of_type_ranges #example_eleven span:nth-child(9):before, #nth_of_type_ranges #example_eleven div:nth-child(9):before {
       content: "9";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(10):before, #nth_of_type #example_six div:nth-child(10):before, #nth_of_type #example_seven span:nth-child(10):before, #nth_of_type #example_seven div:nth-child(10):before, #nth_of_type #example_eight span:nth-child(10):before, #nth_of_type #example_eight div:nth-child(10):before, #nth_of_type #example_nine span:nth-child(10):before, #nth_of_type #example_nine div:nth-child(10):before, #nth_of_type #example_ten span:nth-child(10):before, #nth_of_type #example_ten div:nth-child(10):before, #nth_of_type #example_eleven span:nth-child(10):before, #nth_of_type #example_eleven div:nth-child(10):before, #nth_of_type_ranges #example_six span:nth-child(10):before, #nth_of_type_ranges #example_six div:nth-child(10):before, #nth_of_type_ranges #example_seven span:nth-child(10):before, #nth_of_type_ranges #example_seven div:nth-child(10):before, #nth_of_type_ranges #example_eight span:nth-child(10):before, #nth_of_type_ranges #example_eight div:nth-child(10):before, #nth_of_type_ranges #example_nine span:nth-child(10):before, #nth_of_type_ranges #example_nine div:nth-child(10):before, #nth_of_type_ranges #example_ten span:nth-child(10):before, #nth_of_type_ranges #example_ten div:nth-child(10):before, #nth_of_type_ranges #example_eleven span:nth-child(10):before, #nth_of_type_ranges #example_eleven div:nth-child(10):before {
       content: "10";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(11):before, #nth_of_type #example_six div:nth-child(11):before, #nth_of_type #example_seven span:nth-child(11):before, #nth_of_type #example_seven div:nth-child(11):before, #nth_of_type #example_eight span:nth-child(11):before, #nth_of_type #example_eight div:nth-child(11):before, #nth_of_type #example_nine span:nth-child(11):before, #nth_of_type #example_nine div:nth-child(11):before, #nth_of_type #example_ten span:nth-child(11):before, #nth_of_type #example_ten div:nth-child(11):before, #nth_of_type #example_eleven span:nth-child(11):before, #nth_of_type #example_eleven div:nth-child(11):before, #nth_of_type_ranges #example_six span:nth-child(11):before, #nth_of_type_ranges #example_six div:nth-child(11):before, #nth_of_type_ranges #example_seven span:nth-child(11):before, #nth_of_type_ranges #example_seven div:nth-child(11):before, #nth_of_type_ranges #example_eight span:nth-child(11):before, #nth_of_type_ranges #example_eight div:nth-child(11):before, #nth_of_type_ranges #example_nine span:nth-child(11):before, #nth_of_type_ranges #example_nine div:nth-child(11):before, #nth_of_type_ranges #example_ten span:nth-child(11):before, #nth_of_type_ranges #example_ten div:nth-child(11):before, #nth_of_type_ranges #example_eleven span:nth-child(11):before, #nth_of_type_ranges #example_eleven div:nth-child(11):before {
       content: "11";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
-      font-family: "league gothic", helvetica, sans-serif; }
+      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
 #nth_of_type #example_six span:nth-of-type(3), #nth_of_type_ranges #example_six span:nth-of-type(3) {
   -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
