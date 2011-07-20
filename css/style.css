@@ -1,0 +1,276 @@
+body {
+  background-color: #747474;
+  position: relative;
+  font-family: helvetica; }
+
+#decoration {
+  height: 130px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: white;
+  border-bottom: 4px solid #202020; }
+
+#wrap {
+  width: 960px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "League Gothic";
+  color: #202020;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 black;
+  position: relative; }
+  h1:after {
+    content: "Mastering the art of :nth-child";
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    left: 133px;
+    color: rgba(255, 255, 255, 0.1);
+    height: 45px;
+    overflow: hidden;
+    text-shadow: none; }
+
+ul {
+  list-stye-type: none;
+  width: 665px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  border: 4px solid rgba(0, 0, 0, 0.4);
+  border: 4px solid #202020;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  z-index: -200px; }
+  ul li {
+    display: inline-block;
+    width: 36px;
+    padding: 0 10px;
+    margin: 0;
+    z-index: 400;
+    position: relative; }
+    ul li span {
+      width: 26px;
+      height: 26px;
+      display: block;
+      background-color: black;
+      border-radius: 26px;
+      -moz-box-shadow: inset 3px 3px 10px #747474;
+      -webkit-box-shadow: inset 3px 3px 10px #747474;
+      -moz-box-shadow: inset 3px 3px 10px #747474;
+      -webkit-box-shadow: inset 3px 3px 10px #747474;
+      box-shadow: inset 3px 3px 10px #747474;
+      margin: 10px;
+      z-index: 600; }
+      ul li span:before {
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: relative;
+        top: -2px;
+        left: -2px;
+        content: "";
+        background-color: black;
+        border-radius: 30px;
+        z-index: -100; }
+      ul li span:hover {
+        -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        background-color: #298eb2; }
+    ul li:nth-child(1):before {
+      content: "1";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(1):before {
+      content: "1";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(2):before {
+      content: "2";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(3):before {
+      content: "3";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(4):before {
+      content: "4";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(5):before {
+      content: "5";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(6):before {
+      content: "6";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(7):before {
+      content: "7";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(8):before {
+      content: "8";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(9):before {
+      content: "9";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(10):before {
+      content: "10";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+    ul li:nth-child(11):before {
+      content: "11";
+      position: absolute;
+      top: 60px;
+      left: 30px;
+      color: black;
+      font-family: "league gothic", helvetica, sans-serif; }
+
+section {
+  width: 670px;
+  margin: 10px auto;
+  padding: 15px; }
+  section h2 {
+    font-family: "league gothic", "helvetica", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+    text-transform: uppercase; }
+  section h3 {
+    font-family: "league gothic", "helvetica", sans-serif;
+    color: #cccccc;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 120%; }
+    section h3 span {
+      color: #9fcf77;
+      text-transform: none; }
+
+#nth_child ul li:nth-child(8) span {
+  -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  cursor: pointer;
+  background-color: #298eb2; }
+  #nth_child ul li:nth-child(8) span:hover {
+    background-color: #eb008b; }
+#nth_child pre {
+  width: 650px; }
+
+pre {
+  background-color: #022c37;
+  background-color: #202020;
+  padding: 10px !important;
+  margin-top: 50px; }
+
+section:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1) !important; }
+
+p + div ul {
+  margin-top: 30px;
+  margin-bottom: 60px; }
+
+div + p {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+pre + p {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+p {
+  line-height: 120%; }
+  p span {
+    color: #9fcf77;
+    padding-bottom: 1px; }
+
+#nth_child_ranges #example_one ul li:nth-child(n+6) span {
+  -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  cursor: pointer;
+  background-color: #298eb2; }
+  #nth_child_ranges #example_one ul li:nth-child(n+6) span:hover {
+    background-color: #eb008b; }
+#nth_child_ranges #example_two ul li:nth-child(-n+9) span {
+  -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  cursor: pointer;
+  background-color: #298eb2; }
+  #nth_child_ranges #example_two ul li:nth-child(-n+9) span:hover {
+    background-color: #eb008b; }
+#nth_child_ranges #example_three ul li:nth-child(n+4):nth-child(-n+8) span {
+  -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  cursor: pointer;
+  background-color: #298eb2; }
+  #nth_child_ranges #example_three ul li:nth-child(n+4):nth-child(-n+8) span:hover {
+    background-color: #eb008b; }
+#nth_child_ranges #example_four ul li:nth-child(n+2):nth-child(odd):nth-child(-n+9) span {
+  -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  cursor: pointer;
+  background-color: #298eb2; }
+  #nth_child_ranges #example_four ul li:nth-child(n+2):nth-child(odd):nth-child(-n+9) span:hover {
+    background-color: #eb008b; }
+#nth_child_ranges #example_five ul li:nth-child(3n+1):nth-child(even) span {
+  -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
+  cursor: pointer;
+  background-color: #298eb2; }
+  #nth_child_ranges #example_five ul li:nth-child(3n+1):nth-child(even) span:hover {
+    background-color: #eb008b; }

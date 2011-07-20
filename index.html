@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mastering nth-child and other pseudo selectors</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/prettify.css" type="text/css">
+    <script type="text/javascript" src="js/prettify.js"></script>
+    <script type="text/javascript" src="js/lang-css.js"></script>
+</head>
+
+<body onload="prettyPrint()">
+    <div id="decoration"></div>
+    <div id="wrap">
+        <h1>Mastering the art of :nth-child</h1>
+        <section id="nth_child">
+            <h2>Using the :nth-child()</h2>
+            <ul>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+<pre class="prettyprint">
+<code>
+li:nth-child(8) span {
+    background-color: #298EB2;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4), inset 0 0 10px black;
+}
+</code>
+</pre>
+                <p>Using <span>:nth-child(8)</span> you can specifically choose to change only the 8th element</p>
+        </section>
+        
+        <section id="nth_child_ranges">
+        <h2>Using the :nth-child ranges</h2>
+            <div id="example_one">
+                <h3>Positive Child Ranges <br/> <span>:nth-child(n+6)</span></h3>
+                <ul>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+            </div>
+            <pre class="prettyprint">
+<code>
+li:nth-child(n+6) span {
+    background-color: #298EB2;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4), inset 0 0 10px black;
+}
+</code>
+</pre>
+            <p>Using the <span>:nth-child(n+6)</span> like this allows you pick <span>:nth-child(6)</span> and above</p>
+            
+            <div id="example_two">
+                <h3>Negative Child Ranges<br/>
+                <span>:nth-child(-n+9)</span>
+                </h3>
+                <ul>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+                <pre class="prettyprint">
+<code>
+li:nth-child(-n+9) span {
+    background-color: #298EB2;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4), inset 0 0 10px black;
+}
+</code>
+</pre>
+                <p>Using the <span>:nth-child(-n+9)</span> like this allows you pick <span>:nth-child(9)</span> and below</p>
+            </div>
+            
+            <div id="example_three">
+                <h3>Generic Child Ranges<br/>
+                <span>nth-child(n+4):nth-child(-n+8)</span>
+                </h3>
+                <ul>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+                <pre class="prettyprint">
+<code>
+li:nth-child(-n+9) span {
+    background-color: #298EB2;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4), inset 0 0 10px black;
+}
+</code>
+</pre>
+                <p>Using this <span>nth-child(n+4):nth-child(-n+8)</span> we can select elements within certain ranges, in this case elements 4-8.</p>
+                
+            </div>
+            
+            <div id="example_four">
+                <h3>Advanced Generic Child Ranges<br/>
+                <span>nth-child(n+2):nth-child(odd):nth-child(-n+9)</span>
+                </h3>
+                <ul>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+                <pre class="prettyprint">
+<code>
+li:nth-child(n+2):nth-child(odd):nth-child(-n+9) span {
+    background-color: #298EB2;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4), inset 0 0 10px black;
+}
+</code>
+</pre>
+                <p>Using this <span>nth-child(n+2):nth-child(odd):nth-child(-n+9)</span> we can select elements within certain ranges (2-9) that are odd-numbered children.</p>
+                
+            </div>
+            
+            <div id="example_five">
+                <h3>
+                    <span>nth-child(3n+1):nth-child(even)</span>
+                </h3>
+                <ul>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+                <pre class="prettyprint">
+<code>
+li:nth-child(n+2):nth-child(odd):nth-child(-n+9) span {
+    background-color: #298EB2;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4), inset 0 0 10px black;
+}
+</code>
+</pre>
+                <p>Using this <span>nth-child(3n+1)</span> you should highlight <span>:nth-child(1 & 4 & 7 & 10)</span>, but by using the <span>:nth-child(even)</span> we eliminate <span>:nth-child(1 & 7)</span> leaving only <span>:nth-child(4 & 10).</span></p>
+                
+            </div>
+
+        </section>
+    </div>
+</body
+</html>
