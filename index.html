@@ -183,7 +183,7 @@ li:nth-child(n+2):nth-child(odd):nth-child(-n+9) span {
 }
 </code>
 </pre>
-                <p>Using this <span>:nth-child(3n+1)</span> would normally highlight children <span>1, 4, 7 & 10</span>, but by using the <span>:nth-child(even)</span> we filter out the odd numbered children 1 & 7 leaving only the children <span>4 & 10.</span></p>
+                <p>Using this <span>:nth-child(3n+1)</span> would normally highlight children 1, 4, 7 & 10, but by using the <span>:nth-child(even)</span> we filter out the odd numbered children 1 & 7 leaving only the children 4 & 10.</p>
                 
             </div>
 
@@ -310,7 +310,7 @@ div:nth-of-type(-n+5) {
                 <h3>
                     Using Generic Type Ranges<br/>
                     <span>
-                    span:nth-of-type(n+3):nth-of-type(-n+7)<br/>
+                    span:nth-of-type(n+3):nth-of-type(-n+6)<br/>
                     div:nth-of-type(n+1):nth-of-type(-n+3)
                     </span>
                 </h3>
@@ -343,12 +343,12 @@ div:nth-of-type(n+1):n-th-of-type(-n+3) {
 </code>
 </pre>
 
-                <p>Using <span>:nth-of-type()</span> allows you to select a specific child within a type of element, within the same parent element.</p>
+                <p>Using <span>:nth-of-type(n+3):nth-of-type(-n+6) or div:nth-of-type(n+1):nth-of-type(-n+3)</span>this way allows you to select a generic range of a type of element, within the same parent element. In this example you see that I have selected the squares 1-3 and circles 3-6.</p>
                 
                 <h3>
                     Using Advanced Generic Type Ranges<br/>
                     <span>
-                    span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+7)<br/>
+                    span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6)<br/>
                     div:nth-of-type(n+1):nth-of-type(even):nth-of-type(-n+3)
                     </span>
                 </h3>
@@ -381,7 +381,7 @@ div:nth-of-type(n+1):nth-ofo-type(even):nth-of-type(-n+3)  {
 </code>
 </pre>
 
-                <p>Using the <span>:nth-of-type()</span> allows you to select a specific child within a type of element, within the same parent element.</p>
+                <p>Using the <span>span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6) or div:nth-of-type(n+1):nth-of-type(even):nth-of-type(-n+3)</span> allows you to select a generic range and filter the results based on odd and even. So normally it would have highlighted squares 1-3 and circles 3-6. But by using  odd and even we can filter out those by ranges, so we are left with circles 3 & 5 and square 2.</p>
         </section>
         
         <a id="from_andyet" href="http://andyet.net"><h2>from &amp;yet</h2></a>

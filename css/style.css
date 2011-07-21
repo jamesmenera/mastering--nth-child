@@ -1,7 +1,7 @@
 body {
   background-color: #747474;
   position: relative;
-  font-family: "helvetica"; }
+  font-family: "helvetica", sans-serif; }
 
 #decoration {
   height: 160px;
@@ -366,78 +366,71 @@ p {
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
-    #nth_of_type #example_six span:nth-child(1):before, #nth_of_type #example_six div:nth-child(1):before, #nth_of_type #example_seven span:nth-child(1):before, #nth_of_type #example_seven div:nth-child(1):before, #nth_of_type #example_eight span:nth-child(1):before, #nth_of_type #example_eight div:nth-child(1):before, #nth_of_type #example_nine span:nth-child(1):before, #nth_of_type #example_nine div:nth-child(1):before, #nth_of_type #example_ten span:nth-child(1):before, #nth_of_type #example_ten div:nth-child(1):before, #nth_of_type #example_eleven span:nth-child(1):before, #nth_of_type #example_eleven div:nth-child(1):before, #nth_of_type_ranges #example_six span:nth-child(1):before, #nth_of_type_ranges #example_six div:nth-child(1):before, #nth_of_type_ranges #example_seven span:nth-child(1):before, #nth_of_type_ranges #example_seven div:nth-child(1):before, #nth_of_type_ranges #example_eight span:nth-child(1):before, #nth_of_type_ranges #example_eight div:nth-child(1):before, #nth_of_type_ranges #example_nine span:nth-child(1):before, #nth_of_type_ranges #example_nine div:nth-child(1):before, #nth_of_type_ranges #example_ten span:nth-child(1):before, #nth_of_type_ranges #example_ten div:nth-child(1):before, #nth_of_type_ranges #example_eleven span:nth-child(1):before, #nth_of_type_ranges #example_eleven div:nth-child(1):before {
+    #nth_of_type #example_six span:nth-child(2):before, #nth_of_type #example_six div:nth-child(2):before, #nth_of_type #example_seven span:nth-child(2):before, #nth_of_type #example_seven div:nth-child(2):before, #nth_of_type #example_eight span:nth-child(2):before, #nth_of_type #example_eight div:nth-child(2):before, #nth_of_type #example_nine span:nth-child(2):before, #nth_of_type #example_nine div:nth-child(2):before, #nth_of_type #example_ten span:nth-child(2):before, #nth_of_type #example_ten div:nth-child(2):before, #nth_of_type #example_eleven span:nth-child(2):before, #nth_of_type #example_eleven div:nth-child(2):before, #nth_of_type_ranges #example_six span:nth-child(2):before, #nth_of_type_ranges #example_six div:nth-child(2):before, #nth_of_type_ranges #example_seven span:nth-child(2):before, #nth_of_type_ranges #example_seven div:nth-child(2):before, #nth_of_type_ranges #example_eight span:nth-child(2):before, #nth_of_type_ranges #example_eight div:nth-child(2):before, #nth_of_type_ranges #example_nine span:nth-child(2):before, #nth_of_type_ranges #example_nine div:nth-child(2):before, #nth_of_type_ranges #example_ten span:nth-child(2):before, #nth_of_type_ranges #example_ten div:nth-child(2):before, #nth_of_type_ranges #example_eleven span:nth-child(2):before, #nth_of_type_ranges #example_eleven div:nth-child(2):before {
       content: "1";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
-    #nth_of_type #example_six span:nth-child(2):before, #nth_of_type #example_six div:nth-child(2):before, #nth_of_type #example_seven span:nth-child(2):before, #nth_of_type #example_seven div:nth-child(2):before, #nth_of_type #example_eight span:nth-child(2):before, #nth_of_type #example_eight div:nth-child(2):before, #nth_of_type #example_nine span:nth-child(2):before, #nth_of_type #example_nine div:nth-child(2):before, #nth_of_type #example_ten span:nth-child(2):before, #nth_of_type #example_ten div:nth-child(2):before, #nth_of_type #example_eleven span:nth-child(2):before, #nth_of_type #example_eleven div:nth-child(2):before, #nth_of_type_ranges #example_six span:nth-child(2):before, #nth_of_type_ranges #example_six div:nth-child(2):before, #nth_of_type_ranges #example_seven span:nth-child(2):before, #nth_of_type_ranges #example_seven div:nth-child(2):before, #nth_of_type_ranges #example_eight span:nth-child(2):before, #nth_of_type_ranges #example_eight div:nth-child(2):before, #nth_of_type_ranges #example_nine span:nth-child(2):before, #nth_of_type_ranges #example_nine div:nth-child(2):before, #nth_of_type_ranges #example_ten span:nth-child(2):before, #nth_of_type_ranges #example_ten div:nth-child(2):before, #nth_of_type_ranges #example_eleven span:nth-child(2):before, #nth_of_type_ranges #example_eleven div:nth-child(2):before {
+    #nth_of_type #example_six span:nth-child(3):before, #nth_of_type #example_six div:nth-child(3):before, #nth_of_type #example_seven span:nth-child(3):before, #nth_of_type #example_seven div:nth-child(3):before, #nth_of_type #example_eight span:nth-child(3):before, #nth_of_type #example_eight div:nth-child(3):before, #nth_of_type #example_nine span:nth-child(3):before, #nth_of_type #example_nine div:nth-child(3):before, #nth_of_type #example_ten span:nth-child(3):before, #nth_of_type #example_ten div:nth-child(3):before, #nth_of_type #example_eleven span:nth-child(3):before, #nth_of_type #example_eleven div:nth-child(3):before, #nth_of_type_ranges #example_six span:nth-child(3):before, #nth_of_type_ranges #example_six div:nth-child(3):before, #nth_of_type_ranges #example_seven span:nth-child(3):before, #nth_of_type_ranges #example_seven div:nth-child(3):before, #nth_of_type_ranges #example_eight span:nth-child(3):before, #nth_of_type_ranges #example_eight div:nth-child(3):before, #nth_of_type_ranges #example_nine span:nth-child(3):before, #nth_of_type_ranges #example_nine div:nth-child(3):before, #nth_of_type_ranges #example_ten span:nth-child(3):before, #nth_of_type_ranges #example_ten div:nth-child(3):before, #nth_of_type_ranges #example_eleven span:nth-child(3):before, #nth_of_type_ranges #example_eleven div:nth-child(3):before {
       content: "2";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
-    #nth_of_type #example_six span:nth-child(3):before, #nth_of_type #example_six div:nth-child(3):before, #nth_of_type #example_seven span:nth-child(3):before, #nth_of_type #example_seven div:nth-child(3):before, #nth_of_type #example_eight span:nth-child(3):before, #nth_of_type #example_eight div:nth-child(3):before, #nth_of_type #example_nine span:nth-child(3):before, #nth_of_type #example_nine div:nth-child(3):before, #nth_of_type #example_ten span:nth-child(3):before, #nth_of_type #example_ten div:nth-child(3):before, #nth_of_type #example_eleven span:nth-child(3):before, #nth_of_type #example_eleven div:nth-child(3):before, #nth_of_type_ranges #example_six span:nth-child(3):before, #nth_of_type_ranges #example_six div:nth-child(3):before, #nth_of_type_ranges #example_seven span:nth-child(3):before, #nth_of_type_ranges #example_seven div:nth-child(3):before, #nth_of_type_ranges #example_eight span:nth-child(3):before, #nth_of_type_ranges #example_eight div:nth-child(3):before, #nth_of_type_ranges #example_nine span:nth-child(3):before, #nth_of_type_ranges #example_nine div:nth-child(3):before, #nth_of_type_ranges #example_ten span:nth-child(3):before, #nth_of_type_ranges #example_ten div:nth-child(3):before, #nth_of_type_ranges #example_eleven span:nth-child(3):before, #nth_of_type_ranges #example_eleven div:nth-child(3):before {
-      content: "3";
-      position: absolute;
-      top: 50px;
-      left: 10px;
-      color: black;
-      font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(4):before, #nth_of_type #example_six div:nth-child(4):before, #nth_of_type #example_seven span:nth-child(4):before, #nth_of_type #example_seven div:nth-child(4):before, #nth_of_type #example_eight span:nth-child(4):before, #nth_of_type #example_eight div:nth-child(4):before, #nth_of_type #example_nine span:nth-child(4):before, #nth_of_type #example_nine div:nth-child(4):before, #nth_of_type #example_ten span:nth-child(4):before, #nth_of_type #example_ten div:nth-child(4):before, #nth_of_type #example_eleven span:nth-child(4):before, #nth_of_type #example_eleven div:nth-child(4):before, #nth_of_type_ranges #example_six span:nth-child(4):before, #nth_of_type_ranges #example_six div:nth-child(4):before, #nth_of_type_ranges #example_seven span:nth-child(4):before, #nth_of_type_ranges #example_seven div:nth-child(4):before, #nth_of_type_ranges #example_eight span:nth-child(4):before, #nth_of_type_ranges #example_eight div:nth-child(4):before, #nth_of_type_ranges #example_nine span:nth-child(4):before, #nth_of_type_ranges #example_nine div:nth-child(4):before, #nth_of_type_ranges #example_ten span:nth-child(4):before, #nth_of_type_ranges #example_ten div:nth-child(4):before, #nth_of_type_ranges #example_eleven span:nth-child(4):before, #nth_of_type_ranges #example_eleven div:nth-child(4):before {
-      content: "4";
+      content: "2";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(5):before, #nth_of_type #example_six div:nth-child(5):before, #nth_of_type #example_seven span:nth-child(5):before, #nth_of_type #example_seven div:nth-child(5):before, #nth_of_type #example_eight span:nth-child(5):before, #nth_of_type #example_eight div:nth-child(5):before, #nth_of_type #example_nine span:nth-child(5):before, #nth_of_type #example_nine div:nth-child(5):before, #nth_of_type #example_ten span:nth-child(5):before, #nth_of_type #example_ten div:nth-child(5):before, #nth_of_type #example_eleven span:nth-child(5):before, #nth_of_type #example_eleven div:nth-child(5):before, #nth_of_type_ranges #example_six span:nth-child(5):before, #nth_of_type_ranges #example_six div:nth-child(5):before, #nth_of_type_ranges #example_seven span:nth-child(5):before, #nth_of_type_ranges #example_seven div:nth-child(5):before, #nth_of_type_ranges #example_eight span:nth-child(5):before, #nth_of_type_ranges #example_eight div:nth-child(5):before, #nth_of_type_ranges #example_nine span:nth-child(5):before, #nth_of_type_ranges #example_nine div:nth-child(5):before, #nth_of_type_ranges #example_ten span:nth-child(5):before, #nth_of_type_ranges #example_ten div:nth-child(5):before, #nth_of_type_ranges #example_eleven span:nth-child(5):before, #nth_of_type_ranges #example_eleven div:nth-child(5):before {
-      content: "5";
+      content: "3";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(6):before, #nth_of_type #example_six div:nth-child(6):before, #nth_of_type #example_seven span:nth-child(6):before, #nth_of_type #example_seven div:nth-child(6):before, #nth_of_type #example_eight span:nth-child(6):before, #nth_of_type #example_eight div:nth-child(6):before, #nth_of_type #example_nine span:nth-child(6):before, #nth_of_type #example_nine div:nth-child(6):before, #nth_of_type #example_ten span:nth-child(6):before, #nth_of_type #example_ten div:nth-child(6):before, #nth_of_type #example_eleven span:nth-child(6):before, #nth_of_type #example_eleven div:nth-child(6):before, #nth_of_type_ranges #example_six span:nth-child(6):before, #nth_of_type_ranges #example_six div:nth-child(6):before, #nth_of_type_ranges #example_seven span:nth-child(6):before, #nth_of_type_ranges #example_seven div:nth-child(6):before, #nth_of_type_ranges #example_eight span:nth-child(6):before, #nth_of_type_ranges #example_eight div:nth-child(6):before, #nth_of_type_ranges #example_nine span:nth-child(6):before, #nth_of_type_ranges #example_nine div:nth-child(6):before, #nth_of_type_ranges #example_ten span:nth-child(6):before, #nth_of_type_ranges #example_ten div:nth-child(6):before, #nth_of_type_ranges #example_eleven span:nth-child(6):before, #nth_of_type_ranges #example_eleven div:nth-child(6):before {
-      content: "6";
+      content: "3";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(7):before, #nth_of_type #example_six div:nth-child(7):before, #nth_of_type #example_seven span:nth-child(7):before, #nth_of_type #example_seven div:nth-child(7):before, #nth_of_type #example_eight span:nth-child(7):before, #nth_of_type #example_eight div:nth-child(7):before, #nth_of_type #example_nine span:nth-child(7):before, #nth_of_type #example_nine div:nth-child(7):before, #nth_of_type #example_ten span:nth-child(7):before, #nth_of_type #example_ten div:nth-child(7):before, #nth_of_type #example_eleven span:nth-child(7):before, #nth_of_type #example_eleven div:nth-child(7):before, #nth_of_type_ranges #example_six span:nth-child(7):before, #nth_of_type_ranges #example_six div:nth-child(7):before, #nth_of_type_ranges #example_seven span:nth-child(7):before, #nth_of_type_ranges #example_seven div:nth-child(7):before, #nth_of_type_ranges #example_eight span:nth-child(7):before, #nth_of_type_ranges #example_eight div:nth-child(7):before, #nth_of_type_ranges #example_nine span:nth-child(7):before, #nth_of_type_ranges #example_nine div:nth-child(7):before, #nth_of_type_ranges #example_ten span:nth-child(7):before, #nth_of_type_ranges #example_ten div:nth-child(7):before, #nth_of_type_ranges #example_eleven span:nth-child(7):before, #nth_of_type_ranges #example_eleven div:nth-child(7):before {
-      content: "7";
+      content: "4";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(8):before, #nth_of_type #example_six div:nth-child(8):before, #nth_of_type #example_seven span:nth-child(8):before, #nth_of_type #example_seven div:nth-child(8):before, #nth_of_type #example_eight span:nth-child(8):before, #nth_of_type #example_eight div:nth-child(8):before, #nth_of_type #example_nine span:nth-child(8):before, #nth_of_type #example_nine div:nth-child(8):before, #nth_of_type #example_ten span:nth-child(8):before, #nth_of_type #example_ten div:nth-child(8):before, #nth_of_type #example_eleven span:nth-child(8):before, #nth_of_type #example_eleven div:nth-child(8):before, #nth_of_type_ranges #example_six span:nth-child(8):before, #nth_of_type_ranges #example_six div:nth-child(8):before, #nth_of_type_ranges #example_seven span:nth-child(8):before, #nth_of_type_ranges #example_seven div:nth-child(8):before, #nth_of_type_ranges #example_eight span:nth-child(8):before, #nth_of_type_ranges #example_eight div:nth-child(8):before, #nth_of_type_ranges #example_nine span:nth-child(8):before, #nth_of_type_ranges #example_nine div:nth-child(8):before, #nth_of_type_ranges #example_ten span:nth-child(8):before, #nth_of_type_ranges #example_ten div:nth-child(8):before, #nth_of_type_ranges #example_eleven span:nth-child(8):before, #nth_of_type_ranges #example_eleven div:nth-child(8):before {
-      content: "8";
+      content: "4";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(9):before, #nth_of_type #example_six div:nth-child(9):before, #nth_of_type #example_seven span:nth-child(9):before, #nth_of_type #example_seven div:nth-child(9):before, #nth_of_type #example_eight span:nth-child(9):before, #nth_of_type #example_eight div:nth-child(9):before, #nth_of_type #example_nine span:nth-child(9):before, #nth_of_type #example_nine div:nth-child(9):before, #nth_of_type #example_ten span:nth-child(9):before, #nth_of_type #example_ten div:nth-child(9):before, #nth_of_type #example_eleven span:nth-child(9):before, #nth_of_type #example_eleven div:nth-child(9):before, #nth_of_type_ranges #example_six span:nth-child(9):before, #nth_of_type_ranges #example_six div:nth-child(9):before, #nth_of_type_ranges #example_seven span:nth-child(9):before, #nth_of_type_ranges #example_seven div:nth-child(9):before, #nth_of_type_ranges #example_eight span:nth-child(9):before, #nth_of_type_ranges #example_eight div:nth-child(9):before, #nth_of_type_ranges #example_nine span:nth-child(9):before, #nth_of_type_ranges #example_nine div:nth-child(9):before, #nth_of_type_ranges #example_ten span:nth-child(9):before, #nth_of_type_ranges #example_ten div:nth-child(9):before, #nth_of_type_ranges #example_eleven span:nth-child(9):before, #nth_of_type_ranges #example_eleven div:nth-child(9):before {
-      content: "9";
+      content: "5";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(10):before, #nth_of_type #example_six div:nth-child(10):before, #nth_of_type #example_seven span:nth-child(10):before, #nth_of_type #example_seven div:nth-child(10):before, #nth_of_type #example_eight span:nth-child(10):before, #nth_of_type #example_eight div:nth-child(10):before, #nth_of_type #example_nine span:nth-child(10):before, #nth_of_type #example_nine div:nth-child(10):before, #nth_of_type #example_ten span:nth-child(10):before, #nth_of_type #example_ten div:nth-child(10):before, #nth_of_type #example_eleven span:nth-child(10):before, #nth_of_type #example_eleven div:nth-child(10):before, #nth_of_type_ranges #example_six span:nth-child(10):before, #nth_of_type_ranges #example_six div:nth-child(10):before, #nth_of_type_ranges #example_seven span:nth-child(10):before, #nth_of_type_ranges #example_seven div:nth-child(10):before, #nth_of_type_ranges #example_eight span:nth-child(10):before, #nth_of_type_ranges #example_eight div:nth-child(10):before, #nth_of_type_ranges #example_nine span:nth-child(10):before, #nth_of_type_ranges #example_nine div:nth-child(10):before, #nth_of_type_ranges #example_ten span:nth-child(10):before, #nth_of_type_ranges #example_ten div:nth-child(10):before, #nth_of_type_ranges #example_eleven span:nth-child(10):before, #nth_of_type_ranges #example_eleven div:nth-child(10):before {
-      content: "10";
+      content: "5";
       position: absolute;
       top: 50px;
       left: 10px;
       color: black;
       font-family: "League Gothic", league-gothic-1, league-gothic-2, "helvetica", sans-serif; }
     #nth_of_type #example_six span:nth-child(11):before, #nth_of_type #example_six div:nth-child(11):before, #nth_of_type #example_seven span:nth-child(11):before, #nth_of_type #example_seven div:nth-child(11):before, #nth_of_type #example_eight span:nth-child(11):before, #nth_of_type #example_eight div:nth-child(11):before, #nth_of_type #example_nine span:nth-child(11):before, #nth_of_type #example_nine div:nth-child(11):before, #nth_of_type #example_ten span:nth-child(11):before, #nth_of_type #example_ten div:nth-child(11):before, #nth_of_type #example_eleven span:nth-child(11):before, #nth_of_type #example_eleven div:nth-child(11):before, #nth_of_type_ranges #example_six span:nth-child(11):before, #nth_of_type_ranges #example_six div:nth-child(11):before, #nth_of_type_ranges #example_seven span:nth-child(11):before, #nth_of_type_ranges #example_seven div:nth-child(11):before, #nth_of_type_ranges #example_eight span:nth-child(11):before, #nth_of_type_ranges #example_eight div:nth-child(11):before, #nth_of_type_ranges #example_nine span:nth-child(11):before, #nth_of_type_ranges #example_nine div:nth-child(11):before, #nth_of_type_ranges #example_ten span:nth-child(11):before, #nth_of_type_ranges #example_ten div:nth-child(11):before, #nth_of_type_ranges #example_eleven span:nth-child(11):before, #nth_of_type_ranges #example_eleven div:nth-child(11):before {
-      content: "11";
+      content: "6";
       position: absolute;
       top: 50px;
       left: 10px;
@@ -491,13 +484,13 @@ p {
   background-color: #e17149; }
   #nth_of_type #example_eight div:nth-of-type(-n+5):hover, #nth_of_type_ranges #example_eight div:nth-of-type(-n+5):hover {
     background-color: #eb008b; }
-#nth_of_type #example_nine span:nth-of-type(n+3):nth-of-type(-n+7), #nth_of_type_ranges #example_nine span:nth-of-type(n+3):nth-of-type(-n+7) {
+#nth_of_type #example_nine span:nth-of-type(n+3):nth-of-type(-n+6), #nth_of_type_ranges #example_nine span:nth-of-type(n+3):nth-of-type(-n+6) {
   -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   cursor: pointer;
   background-color: #298eb2; }
-  #nth_of_type #example_nine span:nth-of-type(n+3):nth-of-type(-n+7):hover, #nth_of_type_ranges #example_nine span:nth-of-type(n+3):nth-of-type(-n+7):hover {
+  #nth_of_type #example_nine span:nth-of-type(n+3):nth-of-type(-n+6):hover, #nth_of_type_ranges #example_nine span:nth-of-type(n+3):nth-of-type(-n+6):hover {
     background-color: #eb008b; }
 #nth_of_type #example_nine div:nth-of-type(n+1):nth-of-type(-n+3), #nth_of_type_ranges #example_nine div:nth-of-type(n+1):nth-of-type(-n+3) {
   -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
@@ -507,13 +500,13 @@ p {
   background-color: #e17149; }
   #nth_of_type #example_nine div:nth-of-type(n+1):nth-of-type(-n+3):hover, #nth_of_type_ranges #example_nine div:nth-of-type(n+1):nth-of-type(-n+3):hover {
     background-color: #eb008b; }
-#nth_of_type #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+7), #nth_of_type_ranges #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+7) {
+#nth_of_type #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6), #nth_of_type_ranges #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6) {
   -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   -webkit-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
   cursor: pointer;
   background-color: #298eb2; }
-  #nth_of_type #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+7):hover, #nth_of_type_ranges #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+7):hover {
+  #nth_of_type #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6):hover, #nth_of_type_ranges #example_ten span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6):hover {
     background-color: #eb008b; }
 #nth_of_type #example_ten div:nth-of-type(n+1):nth-of-type(even):nth-of-type(-n+3), #nth_of_type_ranges #example_ten div:nth-of-type(n+1):nth-of-type(even):nth-of-type(-n+3) {
   -moz-box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
