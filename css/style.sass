@@ -30,42 +30,38 @@ h1
     color: #202020
     font-size: 80px
     text-align: center
-    padding-top: 20px
+    padding-top: 40px
     padding-bottom: 40px
     margin-bottom: 20px
+    padding-left: 132px
     text-shadow: 1px 1px 0 #000
     position: relative
     
     &:after
-        content: 'Mastering the art of :nth-child'
+        content: 'Master of the :nth-child'
         position: absolute
         text-align: center
-        top: 19px
-        left: 133px
+        top: 40px
+        left: 276px
         color: rgba( 255, 255, 255, .1)
         height: 45px
         overflow: hidden
         text-shadow: none
+                
+    a
+        width: 100px
+        height: 100px
+        display: block
+        background-image: url('../images/icon.png')
+        border: 2px solid black
+        position: absolute
+        top: 28px
+        left: 145px
         
-    p
-        font-family: 'helvetica', sans-serif    
-        font-size: 20px
-        text-align: right
-        margin-top: 10px
-        margin-right: 135px
-        text-shadow: none
-        font-weight: 300
-        
-        a
-            color: #202020
-            text-decoration: none
-            padding-bottom: 0px
-            border-bottom: 2px solid $teal
-            
-            &:hover
-                border-bottom: none
-            
-            
+        &:hover
+            cursor: pointer
+            background-image: url('../images/icon_hover.png')
+
 
 ul
     list-stye-type: none
@@ -241,7 +237,7 @@ section
     
     h2
         font-family: 'League Gothic', league-gothic-1, league-gothic-2, 'helvetica', sans-serif
-        font-size: 40px
+        font-size: 55px
         font-weight: 300
         letter-spacing: .5px
         padding-bottom: 20px
@@ -249,8 +245,8 @@ section
         
     h3
         font-family: 'League Gothic', league-gothic-1, league-gothic-2, 'helvetica', sans-serif
-        color: #ccc
-        font-size: 30px
+        color: #000
+        font-size: 40px
         font-weight: 300
         letter-spacing: .5px
         padding-top: 15px
@@ -259,9 +255,11 @@ section
         line-height: 120%
         width: 100%
         
+        
         span
             color: $green
             text-transform: none
+            font-size: 35px
         
 #nth_child
     ul
