@@ -232,7 +232,7 @@ ul
             
 section
     width: 670px
-    margin: 10px auto
+    margin: 0px auto
     padding: 15px
     
     h2
@@ -249,7 +249,7 @@ section
         font-size: 40px
         font-weight: 300
         letter-spacing: .5px
-        padding-top: 15px
+        padding-top: 50px
         padding-bottom: 15px
         text-transform: uppercase
         line-height: 120%
@@ -290,9 +290,11 @@ pre
 section:nth-of-type(even)
     background-color: rgba( 0, 0, 0, .1) !important
     
-p + div ul
-    margin-top: 30px
-    margin-bottom: 60px
+section:nth-of-type(odd)
+    background-color: rgba( 0, 0, 0, .3) !important
+    
+section:last-of-type
+    margin-bottom: 20px
     
 div + p
     margin-top: 50px
@@ -304,6 +306,8 @@ pre + p
     
 p
     line-height: 120%
+    padding-bottom: 30px
+    
     
     span
         color: $green
