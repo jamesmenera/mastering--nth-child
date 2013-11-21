@@ -121,7 +121,7 @@ li:nth-child(-n+9) span {
                 </ul>
                 <pre class="prettyprint">
 <code>
-li:nth-child(-n+9) span {
+li:nth-child(n+4):nth-child(-n+8) span {
     background-color: #298EB2;
     box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.4), 0 0 10px black;
 }
@@ -385,9 +385,6 @@ div:nth-of-type(n+1):nth-ofo-type(even):nth-of-type(-n+3)  {
 
                 <p>Using the <span>span:nth-of-type(n+3):nth-of-type(odd):nth-of-type(-n+6) or div:nth-of-type(n+1):nth-of-type(even):nth-of-type(-n+3)</span> allows you to select a generic range and filter the results based on odd and even. So normally it would have highlighted squares 1-3 and circles 3-6. But by using  odd and even we can filter out those by ranges, so we are left with circles 3 & 5 and square 2.</p>
         </section>
-        
-        <a id="from_andyet" href="http://andyet.net"><h2>from &amp;yet</h2></a>
-        
     </div>
     </body>
 </html>

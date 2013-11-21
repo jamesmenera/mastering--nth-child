@@ -28,16 +28,6 @@ h1 {
   padding-left: 132px;
   text-shadow: 1px 1px 0 black;
   position: relative; }
-  h1:after {
-    content: "Master of the :nth-child";
-    position: absolute;
-    text-align: center;
-    top: 40px;
-    left: 276px;
-    color: rgba(255, 255, 255, 0.1);
-    height: 45px;
-    overflow: hidden;
-    text-shadow: none; }
   h1 a {
     width: 100px;
     height: 100px;
