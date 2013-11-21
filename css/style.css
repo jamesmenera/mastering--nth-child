@@ -27,16 +27,6 @@ h1 {
   margin-bottom: 20px;
   text-shadow: 1px 1px 0 black;
   position: relative; }
-  h1:after {
-    content: "Mastering the art of :nth-child";
-    position: absolute;
-    text-align: center;
-    top: 19px;
-    left: 133px;
-    color: rgba(255, 255, 255, 0.1);
-    height: 45px;
-    overflow: hidden;
-    text-shadow: none; }
   h1 p {
     font-family: helvetica, sans-serif;
     font-size: 20px;
